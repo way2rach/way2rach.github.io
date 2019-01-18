@@ -23,15 +23,14 @@ const Header = () => (
         padding: "1.45rem 1.0875rem"
       }}
     >
-      <h1 style={{ margin: 0, textAlign: "center", fontSize: "18px" }}>
+      <h1 style={{ margin: 0, textAlign: "center"}}>
         <Link
           to="/"
           style={{
-            color: "black",
-            textDecoration: "none"
+            textDecoration: "none", fontSize: "48px", fontWeight: "700" , color: "#606666"
           }}
         >
-          CodeStack
+          Front End Curry
         </Link>
       </h1>
     </div>
@@ -54,7 +53,7 @@ const Sidebar = props => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Front End Curry"
       meta={[
         { name: "description", content: "Sample" },
         { name: "keywords", content: "sample, something" }
@@ -104,14 +103,14 @@ const TemplateWrapper = ({ children }) => (
               </div>
 
               <div style={{ flex: 1 }}>
-                <Sidebar
+                {/* <Sidebar
                   title="Codestack"
                   description="Articles on React and Node.js. All articles are written by Emmanuel Yusufu, Fullstack Web Development."
                 />
                 <Sidebar
                   title="About author"
                   description="Emmanuel Yusufu is a Full-stack Web Developer specializing in React and Node.js based in Nigeria."
-                />
+                /> */}
               </div>
             </div>
           )
