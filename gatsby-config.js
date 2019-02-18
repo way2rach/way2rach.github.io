@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Front End Curry`,
   },
-  pathPrefix: "/blog",
+  pathPrefix: "/way2rach",
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
